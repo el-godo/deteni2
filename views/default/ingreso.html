@@ -1,11 +1,42 @@
 {{extend 'layout.html'}}
+<style>
 
-<ol class="breadcrumb">
-  <li><a href="{{=URL('index')}}">Home</a></li>
- 
-  <li class="active">INGRESO</li>
-  
-</ol>
+	#depe {position:absolute;
+			background-color: #1b8dbb;/*FONDO*/
+			border-radius:10px;
+
+		
+			/*bordes redondeados*/
+
+
+			
+			
+			
+			top:-980px;
+			left:-50;
+			outline: none; 
+
+	}
+	#judi{position:absolute;
+			background-color: #1b8dbb;/*FONDO*/
+			border-radius:10px;
+
+		
+			/*bordes redondeados*/
+
+
+			
+			
+			
+			top:-900px;
+			right: 10;
+			outline: none; 
+
+	}
+	
+</style>
+
+
 <div class="page-header">
   <div class=" col-md-12">
     <img src="{{=URL('static','images/INDIA.jpg')}}" width="800" height="200">
@@ -26,6 +57,27 @@
 <div class="well">
 <h2>Ingreso De Personas</h2>
   {{=form}}
+  <div class="col-sm-6 col-md-4">
+						<div class="form-group">
+					
+				
+						<label for="email">Dependencia:</label>
+						{{=form.custom.widget.dependencia}}
+						</div>
+				<div ><a href="{{=URL(c='cargar',f='cargar_dependencia')}}" class="btn btn-info btn-sm pull-right" role="button" id="depe"><span class="glyphicon glyphicon-plus"></span>
+				</a></div><br>
+	</div>			
+	<div class="col-sm-6 col-md-4">
+						<div class="form-group">
+					
+				
+						<label for="email">Dependencia:</label>
+						{{=form.custom.widget.dependencia}}
+						</div>
+				<div ><a href="{{=URL(c='cargar',f='cargar_dependencia')}}" class="btn btn-info btn-sm pull-right" role="button" id="judi"><span class="glyphicon glyphicon-plus"></span>
+				</a></div><br>
+	</div>			
+</div>
   
   
   
@@ -34,12 +86,6 @@
  
 
 
-<nav aria-label="...">
-  <ul class="pager">
-    <li><a href="index">atras</a></li>
-    
-  </ul>
-</nav>
 
 
 

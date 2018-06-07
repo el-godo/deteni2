@@ -56,22 +56,22 @@ I00
 sg10
 S'reference dependencias_polciales'
 p19
-ssS'id'
+ssS'comentario'
 p20
 (dp21
 g4
-I512
+I32768
 sg5
 I00
 sg6
-I1
+I6
 sg7
-S'INTEGER PRIMARY KEY AUTOINCREMENT'
+S'TEXT'
 p22
 sg9
 I00
 sg10
-S'id'
+S'text'
 p23
 ssS'horario'
 p24
@@ -140,22 +140,22 @@ sg9
 I00
 sg10
 g19
-ssS'comentario'
+ssS'id'
 p39
 (dp40
 g4
-I32768
+I512
 sg5
 I00
 sg6
-I6
+I1
 sg7
-S'TEXT'
+S'INTEGER PRIMARY KEY AUTOINCREMENT'
 p41
 sg9
 I00
 sg10
-S'text'
+S'id'
 p42
 ssS'es'
 p43
@@ -195,5 +195,5 @@ p55
 sg9
 I00
 sg10
-g42
+g23
 ss.
