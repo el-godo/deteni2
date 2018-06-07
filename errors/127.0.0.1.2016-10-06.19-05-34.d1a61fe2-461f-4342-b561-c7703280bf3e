@@ -1,0 +1,1137 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.ValueError'> invalid literal for long() with base 10: 'mechera'"
+p3
+sS'layer'
+p4
+S'D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\controllers/default.py'
+p5
+sS'code'
+p6
+S'def deteni2():\n    form = SQLFORM(db.deteni2)\n    if form.accepts(request.vars,session):\n        response.flash = "Formulario Aceptado"\n        redirect(URL(\'ingreso\'))\n    elif form.errors:\n        response.flash = "El formulario es inv\xc3\xa1lido verifique"\n    return dict(form=form)\n\ndef ingreso():\n    form2 =SQLFORM(db.ingreso)\n    if form2.accepts(request.vars,session):\n        response.flash = "Formulario Aceptado"\n        redirect(URL(\'index\'))\n    elif form2.errors:\n        response.flash = "El formulario es inv\xc3\xa1lido verifique"\n    return dict(form2=form2)\n\ndef consulta():\n    \n\n    \n\n    \n    return dict() \n\ndef salida():\n    form3 =SQLFORM(db.egreso)\n    if form3.accepts(request.vars,session):\n        response.flash = "Formulario Aceptado"\n    elif form3.errors:\n        response.flash = "El formulario es inv\xc3\xa1lido verifique"\n    return dict(form3=form3)\ndef home():\n    return dict()\ndef index():\n    return dict()\n\n  \nresponse._vars=response._caller(ingreso)\n'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.ValueError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.ValueError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.ValueError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.ValueError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.ValueError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.ValueError object>'
+p23
+sS'__reduce__'
+p24
+S'<built-in method __reduce__ of exceptions.ValueError object>'
+p25
+sS'__str__'
+p26
+S"<method-wrapper '__str__' of exceptions.ValueError object>"
+p27
+sS'__format__'
+p28
+S'<built-in method __format__ of exceptions.ValueError object>'
+p29
+sS'__getattribute__'
+p30
+S"<method-wrapper '__getattribute__' of exceptions.ValueError object>"
+p31
+sS'__class__'
+p32
+S"<type 'exceptions.ValueError'>"
+p33
+sS'__unicode__'
+p34
+S'<built-in method __unicode__ of exceptions.ValueError object>'
+p35
+sS'__delattr__'
+p36
+S"<method-wrapper '__delattr__' of exceptions.ValueError object>"
+p37
+sS'__subclasshook__'
+p38
+S'<built-in method __subclasshook__ of type object>'
+p39
+sS'__repr__'
+p40
+S"<method-wrapper '__repr__' of exceptions.ValueError object>"
+p41
+sS'args'
+p42
+S'("invalid literal for long() with base 10: \'mechera\'",)'
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.ValueError object>'
+p47
+sS'__doc__'
+p48
+S"'Inappropriate argument value (of correct type).'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.ValueError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S"invalid literal for long() with base 10: 'mechera'"
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's]y\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>deteni2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-3018352e-dcd6-431d-a2db-deeccb8e46fe<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_alumno</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-6001296d-7f4c-435e-8219-f08406a71762<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_armeria</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-bad9b9a1-e548-4876-b64d-b6e62fafc37f<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_deteni2</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_oficios</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-a242958c-ce7c-48de-9649-c73bf87b202d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_prestamos</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-e35a1309-30f2-488d-8be5-ed3555de449c<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_turnos</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-dbbeae17-7541-4cd5-92a1-57dd858f2fdb<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-e8a16866-c1f9-44c8-919e-2a303fb8482a<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-e8a16866-c1f9-44c8-919e-2a303fb8482a; session_id_admin=127.0.0.1-3018352e-dcd6-431d-a2db-deeccb8e46fe; session_id_deteni2=127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21; session_id_alumno=127.0.0.1-6001296d-7f4c-435e-8219-f08406a71762; session_id_prestamos=127.0.0.1-e35a1309-30f2-488d-8be5-ed3555de449c; session_id_oficios=127.0.0.1-a242958c-ce7c-48de-9649-c73bf87b202d; session_id_armeria=127.0.0.1-bad9b9a1-e548-4876-b64d-b6e62fafc37f; session_id_turnos=127.0.0.1-dbbeae17-7541-4cd5-92a1-57dd858f2fdb</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_DNT</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; rv:48.0) Gecko/20100101 Firefox/48.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/deteni2/default/ingreso</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>12369</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>Policia-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\deteni2\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\turnos\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\armeria\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\admin\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\prestamos\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\oficios\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\alumno\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\welcome\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x25d3eb8: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;Policia-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-e8a16866-c1f9-44c8-919e-2a303fb8482a; session_id_admin=127.0.0.1-3018352e-dcd6-431d-a2db-deeccb8e46fe; session_id_deteni2=127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21; session_id_alumno=127.0.0.1-6001296d-7f4c-435e-8219-f08406a71762; session_id_prestamos=127.0.0.1-e35a1309-30f2-488d-8be5-ed3555de449c; session_id_oficios=127.0.0.1-a242958c-ce7c-48de-9649-c73bf87b202d; session_id_armeria=127.0.0.1-bad9b9a1-e548-4876-b64d-b6e62fafc37f; session_id_turnos=127.0.0.1-dbbeae17-7541-4cd5-92a1-57dd858f2fdb</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_dnt</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; rv:48.0) Gecko/20100101 Firefox/48.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::519f:8c80:275f:a5cd%11</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>Policia-PC</div></td></tr><tr><td><div>10.0.0.109</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/deteni2/default/ingreso</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>12369</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/deteni2/default/ingreso</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>Policia-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.14.6-stable+timestamp.2016.05.10.00.21.47</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x012ED0D0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x027630D8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x07BB05B0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x012ED0D0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x027630D8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x07BB05B0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>ingreso</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\deteni2\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\turnos\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\armeria\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\admin\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\prestamos\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\oficios\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\alumno\\\\&#x27;, &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\welcome\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x25d3eb8: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;Policia-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::519f:8c80:275f:a5cd%11</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>Policia-PC</div></td></tr><tr><td><div>10.0.0.109</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.14.6-stable+timestamp.2016.05.10.00.21.47</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2016, 10, 6, 19, 5, 34, 448000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/deteni2/default/ingreso</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2016, 10, 6, 22, 5, 34, 448000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x08263750&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 04BE23C8, file "D:\\back...ications\\deteni2\\controllers/default.py", line 1>'
+p69
+ssS'lnum'
+p70
+I227
+sS'lines'
+p71
+(dp72
+I224
+S'            ccode = code'
+p73
+sI225
+S'        else:'
+p74
+sI226
+S'            ccode = compile2(code, layer)'
+p75
+sI227
+S'        exec ccode in environment'
+p76
+sI228
+S'    except HTTP:'
+p77
+sI229
+S'        raise'
+p78
+sI230
+S'    except RestrictedError:'
+p79
+sI231
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p80
+sI222
+S'    try:'
+p81
+sI223
+S'        if isinstance(code, types.CodeType):'
+p82
+ssS'call'
+p83
+S"(code='def deteni2():\\n    form = SQLFORM(db.deteni2)\\n  ...t()\\n\\n  \\nresponse._vars=response._caller(ingreso)\\n', environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}, layer=r'D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\controllers/default.py')"
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\controllers\\default.py'
+p88
+sg64
+(dp89
+sg70
+I40
+sg71
+(dp90
+I32
+S'        response.flash = "El formulario es inv\xc3\xa1lido verifique"'
+p91
+sI33
+S'    return dict(form3=form3)'
+p92
+sI34
+S'def home():'
+p93
+sI35
+S'    return dict()'
+p94
+sI36
+S'def index():'
+p95
+sI37
+S'    return dict()'
+p96
+sI38
+S''
+sI39
+S''
+sI30
+S'        response.flash = "Formulario Aceptado"'
+p97
+sI31
+S'    elif form3.errors:'
+p98
+ssg83
+S'()'
+p99
+sg85
+S'<module>'
+p100
+sa(dp101
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\globals.py'
+p102
+sg64
+(dp103
+S'self'
+p104
+S'undefined'
+p105
+sS'f'
+S'<function ingreso>'
+p106
+ssg70
+I417
+sg71
+(dp107
+I416
+S'        self._vars = None'
+p108
+sI417
+S'        self._caller = lambda f: f()'
+p109
+sI418
+S'        self._view_environment = None'
+p110
+sI419
+S'        self._custom_commit = None'
+p111
+sI420
+S'        self._custom_rollback = None'
+p112
+sI421
+S"        self.generic_patterns = ['*']"
+p113
+sI412
+S"        self.flash = ''            # used by the default view layout"
+p114
+sI413
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p115
+sI414
+S'        self.menu = []             # used by the default view layout'
+p116
+sI415
+S'        self.files = []            # used by web2py_ajax.html'
+p117
+ssg83
+S'(f=<function ingreso>)'
+p118
+sg85
+S'<lambda>'
+p119
+sa(dp120
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\controllers\\default.py'
+p121
+sg64
+(dp122
+S'global db'
+p123
+S'<DAL uri="sqlite://storage.sqlite">'
+p124
+sS'form2'
+p125
+g105
+sS'db.ingreso'
+p126
+S'<Table ingreso (id, persona, comisaria, Organismo_judicial, calidad, comentario, horario_ingreso)>'
+p127
+sS'global SQLFORM'
+p128
+S"<class 'gluon.sqlhtml.SQLFORM'>"
+p129
+ssg70
+I11
+sg71
+(dp130
+I6
+S'    elif form.errors:'
+p131
+sI7
+S'        response.flash = "El formulario es inv\xc3\xa1lido verifique"'
+p132
+sI8
+S'    return dict(form=form)'
+p133
+sI9
+S''
+sI10
+S'def ingreso():'
+p134
+sI11
+S'    form2 =SQLFORM(db.ingreso)'
+p135
+sI12
+S'    if form2.accepts(request.vars,session):'
+p136
+sI13
+S'        response.flash = "Formulario Aceptado"'
+p137
+sI14
+S"        redirect(URL('index'))"
+p138
+sI15
+S'    elif form2.errors:'
+p139
+ssg83
+S'()'
+p140
+sg85
+S'ingreso'
+p141
+sa(dp142
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\sqlhtml.py'
+p143
+sg64
+(dp144
+S'default'
+p145
+S'None'
+p146
+sS'self.widgets.options.widget'
+p147
+S"<bound method type.widget of <class 'gluon.sqlhtml.OptionsWidget'>>"
+p148
+sS'self'
+p149
+S'<gluon.sqlhtml.SQLFORM object>'
+p150
+sS'inp'
+p151
+g105
+sS'self.widgets'
+p152
+S"<Storage {'multiple': <class 'gluon.sqlhtml.Mult...ss 'gluon.sqlhtml.OptionsWidget'>, 'blob': None}>"
+p153
+sS'field'
+p154
+S'<pydal.objects.Field object>'
+p155
+sS'self.widgets.options'
+p156
+S"<class 'gluon.sqlhtml.OptionsWidget'>"
+p157
+ssg70
+I1295
+sg71
+(dp158
+I1290
+S"                    inpval = 'checked'"
+p159
+sI1291
+S'                else:'
+p160
+sI1292
+S"                    inpval = ''"
+p161
+sI1293
+S'            elif OptionsWidget.has_options(field):'
+p162
+sI1294
+S'                if not field.requires.multiple:'
+p163
+sI1295
+S'                    inp = self.widgets.options.widget(field, default)'
+p164
+sI1296
+S'                else:'
+p165
+sI1297
+S'                    inp = self.widgets.multiple.widget(field, default)'
+p166
+sI1298
+S'                if fieldname in keepopts:'
+p167
+sI1299
+S'                    inpval = CAT(*inp.components)'
+p168
+ssg83
+S"(self=<gluon.sqlhtml.SQLFORM object>, table=<Table ingreso (id, persona, comisaria, Organismo_judicial, calidad, comentario, horario_ingreso)>, record=None, deletable=False, linkto=None, upload=None, fields=['id', 'persona', 'comisaria', 'Organismo_judicial', 'calidad', 'comentario', 'horario_ingreso'], labels=None, col3={}, submit_button='Submit', delete_label='Check to delete', showid=True, readonly=False, comments=True, keepopts=[], ignore_rw=False, record_id=None, formstyle=None, buttons=['submit'], separator=None, extra_fields=[], **attributes={})"
+p169
+sg85
+g50
+sa(dp170
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\sqlhtml.py'
+p171
+sg64
+(dp172
+S'].options'
+p173
+g105
+sS'requires'
+p174
+S'[<gluon.validators.IS_IN_DB object>]'
+p175
+sS'options'
+p176
+g105
+ssg70
+I313
+sg71
+(dp177
+I308
+S'        requires = field.requires'
+p178
+sI309
+S'        if not isinstance(requires, (list, tuple)):'
+p179
+sI310
+S'            requires = [requires]'
+p180
+sI311
+S'        if requires:'
+p181
+sI312
+S"            if hasattr(requires[0], 'options'):"
+p182
+sI313
+S'                options = requires[0].options()'
+p183
+sI314
+S'            else:'
+p184
+sI315
+S'                raise SyntaxError('
+p185
+sI316
+S"                    'widget cannot determine options of %s' % field)"
+p186
+sI317
+S'        opts = [OPTION(v, _value=k) for (k, v) in options]'
+p187
+ssg83
+S"(cls=<class 'gluon.sqlhtml.OptionsWidget'>, field=<pydal.objects.Field object>, value=None, **attributes={})"
+p188
+sg85
+S'widget'
+p189
+sa(dp190
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\validators.py'
+p191
+sg64
+(dp192
+S'self'
+p193
+S'<gluon.validators.IS_IN_DB object>'
+p194
+sS'self.build_set'
+p195
+S'<bound method IS_IN_DB.build_set of <gluon.validators.IS_IN_DB object>>'
+p196
+ssg70
+I598
+sg71
+(dp197
+I593
+S'            self.labels = [self.label % r for r in records]'
+p198
+sI594
+S'        else:'
+p199
+sI595
+S'            self.labels = [self.label(r) for r in records]'
+p200
+sI596
+S''
+sI597
+S'    def options(self, zero=True):'
+p201
+sI598
+S'        self.build_set()'
+p202
+sI599
+S'        items = [(k, self.labels[i]) for (i, k) in enumerate(self.theset)]'
+p203
+sI600
+S'        if self.sort:'
+p204
+sI601
+S'            items.sort(options_sorter)'
+p205
+sI602
+S'        if zero and self.zero is not None and not self.multiple:'
+p206
+ssg83
+S'(self=<gluon.validators.IS_IN_DB object>, zero=True)'
+p207
+sg85
+S'options'
+p208
+sa(dp209
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\validators.py'
+p210
+sg64
+(dp211
+S'self.dbset'
+p212
+S'<Set None>'
+p213
+sS'fields'
+p214
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p215
+sS'self'
+p216
+S'<gluon.validators.IS_IN_DB object>'
+p217
+sS').select'
+p218
+g105
+sS'records'
+p219
+g105
+sS'table'
+p220
+S'<Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>'
+p221
+sS'dd'
+p222
+S"{'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>}"
+p223
+ssg70
+I584
+sg71
+(dp224
+I579
+S'            distinct = self.distinct'
+p225
+sI580
+S'            left = self.left'
+p226
+sI581
+S'            dd = dict(orderby=orderby, groupby=groupby,'
+p227
+sI582
+S'                      distinct=distinct, cache=self.cache,'
+p228
+sI583
+S'                      cacheable=True, left=left)'
+p229
+sI584
+S'            records = self.dbset(table).select(*fields, **dd)'
+p230
+sI585
+S'        else:'
+p231
+sI586
+S'            orderby = self.orderby or \\'
+p232
+sI587
+S'                reduce(lambda a, b: a | b, ('
+p233
+sI588
+S"                    f for f in fields if not f.name == 'id'))"
+p234
+ssg83
+S'(self=<gluon.validators.IS_IN_DB object>)'
+p235
+sg85
+S'build_set'
+p236
+sa(dp237
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\objects.py'
+p238
+sg64
+(dp239
+S'self.query'
+p240
+S'<Query (deteni2.id IS NOT NULL)>'
+p241
+sS'adapter.select'
+p242
+S'<bound method SQLiteAdapter.select of <pydal.adapters.sqlite.SQLiteAdapter object>>'
+p243
+sS'fields'
+p244
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p245
+sS'adapter'
+p246
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p247
+sS'attributes'
+p248
+S"{'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>}"
+p249
+sS'self'
+p250
+S'<Set (deteni2.id IS NOT NULL)>'
+p251
+ssg70
+I2020
+sg71
+(dp252
+I2016
+S"                                    attributes.get('left', None),"
+p253
+sI2017
+S"                                    attributes.get('orderby', None),"
+p254
+sI2018
+S"                                    attributes.get('groupby', None))"
+p255
+sI2019
+S'        fields = adapter.expand_all(fields, tablenames)'
+p256
+sI2020
+S'        return adapter.select(self.query, fields, attributes)'
+p257
+sI2021
+S''
+sI2022
+S'    def iterselect(self, *fields, **attributes):'
+p258
+sI2023
+S'        adapter = self.db._adapter'
+p259
+sI2024
+S'        tablenames = adapter.tables(self.query,'
+p260
+sI2015
+S"                                    attributes.get('join', None),"
+p261
+ssg83
+S"(self=<Set (deteni2.id IS NOT NULL)>, *fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], **attributes={'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>})"
+p262
+sg85
+S'select'
+p263
+sa(dp264
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\sqlite.py'
+p265
+sg64
+(dp266
+S'fields'
+p267
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p268
+sS'self'
+p269
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p270
+sS').select'
+p271
+S'<bound method SQLiteAdapter.select of <pydal.adapters.sqlite.SQLiteAdapter object>>'
+p272
+sS'attributes'
+p273
+S"{'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>}"
+p274
+sS'global SQLiteAdapter'
+p275
+S"<class 'pydal.adapters.sqlite.SQLiteAdapter'>"
+p276
+sS'query'
+p277
+S'<Query (deteni2.id IS NOT NULL)>'
+p278
+sS'builtinsuper'
+p279
+S"<type 'super'>"
+p280
+ssg70
+I123
+sg71
+(dp281
+I118
+S'        Note that the entire database, rather than one record, is locked'
+p282
+sI119
+S'        (it will be locked eventually anyway by the following UPDATE).'
+p283
+sI120
+S'        """'
+p284
+sI121
+S"        if attributes.get('for_update', False) and not 'cache' in attributes:"
+p285
+sI122
+S"            self.execute('BEGIN IMMEDIATE TRANSACTION;')"
+p286
+sI123
+S'        return super(SQLiteAdapter, self).select(query, fields, attributes)'
+p287
+sI124
+S''
+sI125
+S''
+sI126
+S'SPATIALLIBS = {'
+p288
+sI127
+S"    'Windows':'mod_spatialite.dll',"
+p289
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, query=<Query (deteni2.id IS NOT NULL)>, fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], attributes={'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>})"
+p290
+sg85
+g263
+sa(dp291
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py'
+p292
+sg64
+(dp293
+S'fields'
+p294
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p295
+sS'self'
+p296
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p297
+sS'attributes'
+p298
+S"{'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>}"
+p299
+sS'self._select_aux'
+p300
+S'<bound method SQLiteAdapter._select_aux of <pydal.adapters.sqlite.SQLiteAdapter object>>'
+p301
+sS'sql'
+p302
+S"'SELECT  deteni2.dni, deteni2.apellido, deteni2.n...i2.nacionalidad, deteni2.tipo_delito, deteni2.id;'"
+p303
+ssg70
+I1296
+sg71
+(dp304
+I1291
+S'            return cache_model('
+p305
+sI1292
+S'                key,'
+p306
+sI1293
+S'                lambda self=self,args=args:self._select_aux(*args),'
+p307
+sI1294
+S'                time_expire)'
+p308
+sI1295
+S'        else:'
+p309
+sI1296
+S'            return self._select_aux(sql,fields,attributes)'
+p310
+sI1297
+S''
+sI1298
+S'    def iterselect(self, query, fields, attributes):'
+p311
+sI1299
+S'        sql = self._select(query, fields, attributes)'
+p312
+sI1300
+S"        cacheable = attributes.get('cacheable', False)"
+p313
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, query=<Query (deteni2.id IS NOT NULL)>, fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], attributes={'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>})"
+p314
+sg85
+g263
+sa(dp315
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py'
+p316
+sg64
+(dp317
+S'rows'
+p318
+S"[(u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 10), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 11), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 12), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 4), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 6), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 7), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 8), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 9), (u'1616177', u'gonzalo', u'bobo', u'yuyu', u'argentino', u'6', 14), (u'2323', u'toritto', u'machito', u'gordo', u'argentino', u'6', 16), (u'2525', u'gonzalo', u'bobo', u'yuyu', u'argentino', u'7', 13), (u'3456', None, None, u'macho alfa', u'argentino', u'robo de motos', 3), (u'393939', u'matias', u'diosque', u'tranquilo', u'argentino', u'7', 15), (u'4525684', u'robles', u'ivana', u'tranquilo', u'argentino', u'6', 18), (u'454545', u'robles', u'ivana', u'caniche', u'argentino', u'6', 17), (u'474748', None, None, u'gaturro', u'argentino', u'robo de motos', 1), (u'474748', None, None, u'gaturro', u'argentino', u'robo de motos', 2), (u'54534534', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 5)]"
+p319
+sS'fields'
+p320
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p321
+sS'self'
+p322
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p323
+sS'cacheable'
+p324
+S'True'
+p325
+sS'self._colnames'
+p326
+S"['deteni2.dni', 'deteni2.apellido', 'deteni2.nombre', 'deteni2.aliass', 'deteni2.nacionalidad', 'deteni2.tipo_delito', 'deteni2.id']"
+p327
+sS'processor'
+p328
+S'<bound method SQLiteAdapter.parse of <pydal.adapters.sqlite.SQLiteAdapter object>>'
+p329
+ssg70
+I1277
+sg71
+(dp330
+I1280
+S'        """'
+p331
+sI1281
+S'        Always returns a Rows object, possibly empty.'
+p332
+sI1272
+S'            rows = list(rows)'
+p333
+sI1273
+S"        limitby = args_get('limitby', None) or (0,)"
+p334
+sI1274
+S'        rows = self.rowslice(rows,limitby[0],None)'
+p335
+sI1275
+S"        processor = args_get('processor', self.parse)"
+p336
+sI1276
+S"        cacheable = args_get('cacheable',False)"
+p337
+sI1277
+S'        return processor(rows,fields,self._colnames,cacheable=cacheable)'
+p338
+sI1278
+S''
+sI1279
+S'    def select(self, query, fields, attributes):'
+p339
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, sql='SELECT  deteni2.dni, deteni2.apellido, deteni2.n...i2.nacionalidad, deteni2.tipo_delito, deteni2.id;', fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], attributes={'cache': None, 'cacheable': True, 'distinct': None, 'groupby': None, 'left': None, 'orderby': <pydal.objects.Expression object>})"
+p340
+sg85
+S'_select_aux'
+p341
+sa(dp342
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py'
+p343
+sg64
+(dp344
+S'rows'
+p345
+S"[(u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 10), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 11), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 12), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 4), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 6), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 7), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 8), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 9), (u'1616177', u'gonzalo', u'bobo', u'yuyu', u'argentino', u'6', 14), (u'2323', u'toritto', u'machito', u'gordo', u'argentino', u'6', 16), (u'2525', u'gonzalo', u'bobo', u'yuyu', u'argentino', u'7', 13), (u'3456', None, None, u'macho alfa', u'argentino', u'robo de motos', 3), (u'393939', u'matias', u'diosque', u'tranquilo', u'argentino', u'7', 15), (u'4525684', u'robles', u'ivana', u'tranquilo', u'argentino', u'6', 18), (u'454545', u'robles', u'ivana', u'caniche', u'argentino', u'6', 17), (u'474748', None, None, u'gaturro', u'argentino', u'robo de motos', 1), (u'474748', None, None, u'gaturro', u'argentino', u'robo de motos', 2), (u'54534534', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 5)]"
+p346
+sS'row'
+p347
+S"(u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 4)"
+p348
+ssg70
+I1767
+sg71
+(dp349
+I1762
+S''
+sI1763
+S'    def parse(self, rows, fields, colnames, blob_decode=True, cacheable=False):'
+p350
+sI1764
+S'        (fields_virtual, fields_lazy, tmps) = self._parse_expand_colnames(colnames)'
+p351
+sI1765
+S'        new_rows = [self._parse(row, tmps, fields, colnames, blob_decode,'
+p352
+sI1766
+S'                                cacheable, fields_virtual, fields_lazy)'
+p353
+sI1767
+S'                    for row in rows]'
+p354
+sI1768
+S''
+sI1769
+S'        rowsobj = Rows(self.db, new_rows, colnames, rawrows=rows)'
+p355
+sI1770
+S''
+sI1771
+S'        # Old stype virtual fields'
+p356
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, rows=[(u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 10), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 11), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'6', 12), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 4), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 6), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 7), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 8), (u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 9), (u'1616177', u'gonzalo', u'bobo', u'yuyu', u'argentino', u'6', 14), (u'2323', u'toritto', u'machito', u'gordo', u'argentino', u'6', 16), (u'2525', u'gonzalo', u'bobo', u'yuyu', u'argentino', u'7', 13), (u'3456', None, None, u'macho alfa', u'argentino', u'robo de motos', 3), (u'393939', u'matias', u'diosque', u'tranquilo', u'argentino', u'7', 15), (u'4525684', u'robles', u'ivana', u'tranquilo', u'argentino', u'6', 18), (u'454545', u'robles', u'ivana', u'caniche', u'argentino', u'6', 17), (u'474748', None, None, u'gaturro', u'argentino', u'robo de motos', 1), (u'474748', None, None, u'gaturro', u'argentino', u'robo de motos', 2), (u'54534534', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 5)], fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], colnames=['deteni2.dni', 'deteni2.apellido', 'deteni2.nombre', 'deteni2.aliass', 'deteni2.nacionalidad', 'deteni2.tipo_delito', 'deteni2.id'], blob_decode=True, cacheable=True)"
+p357
+sg85
+S'parse'
+p358
+sa(dp359
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py'
+p360
+sg64
+(dp361
+S'blob_decode'
+p362
+g325
+sS'self'
+p363
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p364
+sS'ft'
+p365
+S"'reference delito'"
+p366
+sS'value'
+p367
+S"u'mechera'"
+p368
+sS'self.parse_value'
+p369
+S'<bound method SQLiteAdapter.parse_value of <pydal.adapters.sqlite.SQLiteAdapter object>>'
+p370
+ssg70
+I1677
+sg71
+(dp371
+I1672
+S'                (tablename, fieldname, table, field, ft) = tmp'
+p372
+sI1673
+S'                colset = new_row.get(tablename, None)'
+p373
+sI1674
+S'                if colset is None:'
+p374
+sI1675
+S'                    colset = new_row[tablename] = self.db.Row()'
+p375
+sI1676
+S''
+sI1677
+S'                value = self.parse_value(value, ft, blob_decode)'
+p376
+sI1678
+S'                if field.filter_out:'
+p377
+sI1679
+S'                    value = field.filter_out(value)'
+p378
+sI1680
+S'                colset[fieldname] = value'
+p379
+sI1681
+S''
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, row=(u'1616177', None, None, u'chiwawawe\\xf1a', u'argentino', u'mechera', 4), tmps=[('deteni2', 'dni', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'integer'), ('deteni2', 'apellido', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'string'), ('deteni2', 'nombre', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'string'), ('deteni2', 'aliass', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'string'), ('deteni2', 'nacionalidad', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'string'), ('deteni2', 'tipo_delito', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'reference delito'), ('deteni2', 'id', <Table deteni2 (id, dni, apellido, nombre, alias...micilio, sexo, zona_operando, tipo_delito, foto)>, <pydal.objects.Field object>, 'id')], fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], colnames=['deteni2.dni', 'deteni2.apellido', 'deteni2.nombre', 'deteni2.aliass', 'deteni2.nacionalidad', 'deteni2.tipo_delito', 'deteni2.id'], blob_decode=True, cacheable=True, fields_virtual={'deteni2': []}, fields_lazy={'deteni2': []})"
+p380
+sg85
+S'_parse'
+p381
+sa(dp382
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py'
+p383
+sg64
+(dp384
+S'field_type'
+p385
+S"'reference delito'"
+p386
+sS'self'
+p387
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p388
+sS'self.parsemap'
+p389
+S"{'bigint': <bound method SQLiteAdapter.parse_integer of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'blob': <bound method SQLiteAdapter.parse_blob of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'boolean': <bound method SQLiteAdapter.parse_boolean of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'date': <bound method SQLiteAdapter.parse_date of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'datetime': <bound method SQLiteAdapter.parse_datetime of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'decimal': <bound method SQLiteAdapter.parse_decimal of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'double': <bound method SQLiteAdapter.parse_double of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'float': <bound method SQLiteAdapter.parse_double of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'id': <bound method SQLiteAdapter.parse_id of <pydal.adapters.sqlite.SQLiteAdapter object>>, 'integer': <bound method SQLiteAdapter.parse_integer of <pydal.adapters.sqlite.SQLiteAdapter object>>, ...}"
+p390
+sS'value'
+p391
+S"'mechera'"
+p392
+sS'key'
+p393
+S"'reference'"
+p394
+ssg70
+I1527
+sg71
+(dp395
+I1522
+S'            return value'
+p396
+sI1523
+S"        elif field_type == 'blob' and not blob_decode:"
+p397
+sI1524
+S'            return value'
+p398
+sI1525
+S'        else:'
+p399
+sI1526
+S'            key = REGEX_TYPE.match(field_type).group(0)'
+p400
+sI1527
+S'            return self.parsemap[key](value,field_type)'
+p401
+sI1528
+S''
+sI1529
+S'    def parse_reference(self, value, field_type):'
+p402
+sI1530
+S'        referee = field_type[10:].strip()'
+p403
+sI1531
+S"        if not '.' in referee:"
+p404
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, value='mechera', field_type='reference delito', blob_decode=True)"
+p405
+sg85
+S'parse_value'
+p406
+sa(dp407
+g62
+S'D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py'
+p408
+sg64
+(dp409
+S'global Reference'
+p410
+S"<class 'pydal.helpers.classes.Reference'>"
+p411
+sS'value'
+p412
+S"'mechera'"
+p413
+ssg70
+I1532
+sg71
+(dp414
+I1536
+S'    def parse_boolean(self, value, field_type):'
+p415
+sI1527
+S'            return self.parsemap[key](value,field_type)'
+p416
+sI1528
+S''
+sI1529
+S'    def parse_reference(self, value, field_type):'
+p417
+sI1530
+S'        referee = field_type[10:].strip()'
+p418
+sI1531
+S"        if not '.' in referee:"
+p419
+sI1532
+S'            value = Reference(value)'
+p420
+sI1533
+S'            value._table, value._record = self.db[referee], None'
+p421
+sI1534
+S'        return value'
+p422
+sI1535
+S''
+ssg83
+S"(self=<pydal.adapters.sqlite.SQLiteAdapter object>, value='mechera', field_type='reference delito')"
+p423
+sg85
+S'parse_reference'
+p424
+sasS'pyver'
+p425
+S'Python 2.7.9: D:\\backup servidor\\uli\\web2py\\web2py\\web2py.exe (prefix: C:\\Python27)'
+p426
+sS'session'
+p427
+g57
+(S's8\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>db.ingreso.id&gt;0</div></td></tr></table></div>'
+tRp428
+sS'etype'
+p429
+S"<type 'exceptions.ValueError'>"
+p430
+sS'date'
+p431
+S'Thu Oct 06 19:05:34 2016'
+p432
+sS'response'
+p433
+g57
+(S's\xdf?\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x047B04A0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_deteni2</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="navbar-brand" href="http://www.web2py.com/" id="web2py-logo"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Inicio</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/deteni2/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Mis Sitios</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Esta Aplicaci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Design</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/deteni2</div></td></tr></table></div></td></tr><tr><td><div><li class="divider"></li></div></td></tr><tr><td><div><table><tr><td><div>Controlador</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/controllers/default.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Vista</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/views/default/ingreso.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Modelo BDD</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/models/db.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Modelo "menu"</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/models/menu.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Config.ini</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/private/appconfig.ini</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Dise\xc3\xb1o de p\xc3\xa1gina</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/views/layout.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Hoja de estilo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/deteni2/static/css/web2py-bootstrap3.css</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Base de datos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/deteni2/appadmin/index</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Errores</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/errors/deteni2</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Acerca de</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/deteni2</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>web2py.com</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Descargas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/download</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Soporte</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/support</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Demostraci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/demo_admin</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Ejemplos R\xc3\xa1pidos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/examples/default/examples</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>FAQ</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/AlterEgo</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>V\xc3\xaddeos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/videos/</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Aplicaciones Libres</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/appliances</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/plugins</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recetas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2pyslices.com/</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Documentaci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Online book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book</div></td></tr></table></div></td></tr><tr><td><div><li class="divider"></li></div></td></tr><tr><td><div><table><tr><td><div>Prefacio</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/00</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Introducci\xc3\xb3n</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/01</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Python</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/02</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Resumen</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/03</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>El N\xc3\xbacleo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/04</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Las Vistas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/05</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Base de datos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/06</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Formularios y validadores</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/07</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Correo electr\xc3\xb3nico y SMS</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/08</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Control de Acceso</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/09</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Servicios</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/10</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recetas AJAX</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/11</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Componentes y Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/12</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recetas de despliegue</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/13</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Otras Recetas</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/14</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Helping web2py</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/15</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Buy web2py\'s book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://stores.lulu.com/web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Comunidad</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>None</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Grupos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/usergroups</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Twitter</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://twitter.com/web2py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Chat en vivo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://webchat.freenode.net/?channels=web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/ingreso/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_deteni2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;D:\\\\backup servidor\\\\uli\\\\web2py\\\\web2py\\\\applications\\\\deteni2\\\\sessions\\\\1f7\\\\089\\\\127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21&#x27;, mode &#x27;rb+&#x27; at 0x07A9FAC8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\sessions\\127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>099878d717849f637ab42012c63a3d1d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-a5a5cf58-15f4-42cb-a223-065f77159b21</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_deteni2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>deteni2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Deteni2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/ingreso.html</div></td></tr></table></div>'
+tRp434
+sS'locals'
+p435
+(dp436
+S'field_type'
+p437
+S"'reference delito'"
+p438
+sS'self'
+p439
+S'<pydal.adapters.sqlite.SQLiteAdapter object>'
+p440
+sS'referee'
+p441
+S"'delito'"
+p442
+sS'value'
+p443
+S"'mechera'"
+p444
+sssS'traceback'
+p445
+S'Traceback (most recent call last):\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\restricted.py", line 227, in restricted\n    exec ccode in environment\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\controllers/default.py", line 40, in <module>\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\globals.py", line 417, in <lambda>\n    self._caller = lambda f: f()\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2\\controllers/default.py", line 11, in ingreso\n    form2 =SQLFORM(db.ingreso)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\sqlhtml.py", line 1295, in __init__\n    inp = self.widgets.options.widget(field, default)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\sqlhtml.py", line 313, in widget\n    options = requires[0].options()\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\validators.py", line 598, in options\n    self.build_set()\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\validators.py", line 584, in build_set\n    records = self.dbset(table).select(*fields, **dd)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\objects.py", line 2020, in select\n    return adapter.select(self.query, fields, attributes)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\sqlite.py", line 123, in select\n    return super(SQLiteAdapter, self).select(query, fields, attributes)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py", line 1296, in select\n    return self._select_aux(sql,fields,attributes)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py", line 1277, in _select_aux\n    return processor(rows,fields,self._colnames,cacheable=cacheable)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py", line 1767, in parse\n    for row in rows]\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py", line 1677, in _parse\n    value = self.parse_value(value, ft, blob_decode)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py", line 1527, in parse_value\n    return self.parsemap[key](value,field_type)\n  File "D:\\backup servidor\\uli\\web2py\\web2py\\gluon\\packages\\dal\\pydal\\adapters\\base.py", line 1532, in parse_reference\n    value = Reference(value)\nValueError: invalid literal for long() with base 10: \'mechera\'\n'
+p446
+s.

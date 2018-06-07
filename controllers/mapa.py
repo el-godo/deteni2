@@ -1,0 +1,2 @@
+def mapa():
+	return dict()

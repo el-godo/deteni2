@@ -1,0 +1,51 @@
+{{extend 'layout.html'}}
+
+<ol class="breadcrumb">
+  
+  
+  <li class="active">Ingrese las Nuevas Dependencias</li>
+  
+</ol>
+<div class="page-header">
+  <h1>SISTEMA CALABOZO
+  <small>Div.INVESTIGACIONES</small></h1>
+</div>	
+<div class='container-fluid'>
+<div class="row">
+  <div class=" col-md-3">
+    <a href="{{=URL('nueva_judicial')}}" class="thumbnail">
+      <img src="{{=URL('static','images/judicial.jpg')}}" width="295" height="300">
+    </a>
+    <h6><p class="text-center text-success "></p></h6><font face="Comic Sans MS,arial,verdana"> </font><DIV ALIGN=center><strong>Nueva Dependencia Judicial</strong></DIV></p></h6>
+    </div>
+
+  <div class=" col-md-3">
+    <a href="{{=URL('nueva_comisaria')}}" class="thumbnail">
+      <img src="{{=URL('static','images/comisaria.jpg')}}" width="300" height="100">
+    </a>
+    <h6><p class="text-center text-success "></p></h6><font face="Comic Sans MS,arial,verdana"> </font><DIV ALIGN=center><strong>Nueva Dependecia Policial</strong></DIV></p></h6>
+  </div>
+  <div class=" col-md-3">
+    <a href="{{=URL('nuevos_delitos')}}" class="thumbnail">
+      <img src="{{=URL('static','images/delitos.jpg')}}" width="258" height="100">
+    </a>
+    <h6><p class="text-center text-success "></p></h6><font face="Comic Sans MS,arial,verdana"> </font><DIV ALIGN=center><strong>Nuevos Delitos</strong></DIV></p></h6>
+    </div>
+
+
+</div>
+<nav aria-label="...">
+  <ul class="pager">
+  
+    <li><a href="{{=URL('ingreso',args=[atrapa])}}" >Volver</a></li>
+    
+  {{pass}}
+    <li><a href="index">principal</a></li>
+  
+  
+  
+
+    
+  </ul>
+</nav>
+

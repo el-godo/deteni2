@@ -1,0 +1,113 @@
+{{extend 'layout.html'}}
+<ol class="breadcrumb">
+<div class="class well"  
+{{extend 'layout.html'}}
+<ol class="breadcrumb">
+<h4><span class="glyphicon glyphicon-search" aria-hidden="true"></span> BUSCAR POR detalle del tatuaje</h4>
+
+<form class="form-inline" role="search" method="get" action="filtro1"> <!-- en accion va el nombre de la vista-->
+	<div class="form-group">
+    	<label class="sr-only" for="exampleInputEmail3">nombre</label>
+    	<input type="text"	 class="form-control" id="exampleInputEmail3" placeholder="NOMBRE" name="nom" value="{{=nom}}">
+  	</div>
+	<div class="form-group">
+    	<label class="sr-only" for="exampleInputEmail3">apellido</label>
+    	<input type="text"	 class="form-control" id="exampleInputEmail3" placeholder="APELLIDO" name="ape" value="{{=ape}}">
+  	</div>
+	<div class="form-group">
+    	<label class="sr-only" for="exampleInputEmail3">alias</label>
+    	<input type="text"	 class="form-control" id="exampleInputEmail3" placeholder="ALIAS" name="alias" value="{{=alias}}">
+  	</div>
+  	<div class="form-group">
+    	<label class="sr-only" for="exampleInputEmail3">DATOS</label>
+    	<input type="text"	 class="form-control" id="exampleInputEmail3" placeholder="DETALLE DEL TATUAJE" name="variable_unica" value="{{=variable_unica}}">
+  	</div>
+  	<div class="form-group">
+    	<label class="sr-only" for="exampleInputEmail3">DELITO</label>
+    	<input type="text"	 class="form-control" id="exampleInputEmail3" placeholder="DELITO AL QUE SE DEDICA" name="delito" value="{{=delito}}">
+  	</div>
+  	
+  	<div class="form-group">
+    <label >COLOR DE PIEL</label>
+    <select name="color_piel" class="form-control" id="{{=color_piel}}">
+      	<option value=""> </option>
+	  	<option value="NEGRO">NEGRO</option>
+	  	<option value="BLANCO">BLANCO</option>
+	  	<option value="TRIGUEÑO">TRIGUEÑO</option>
+	  	<option value="AMARILLO">AMARILLO</option>
+    </select>
+    <div class="form-group">
+    <label >COLOR DE PELO</label>
+	<select name="color_pelo" class="form-control" id="{{=color_pelo}}">
+      	<option value=""> </option>
+	  	<option value="NEGRO">NEGRO</option>
+	  	<option value="RUBIO">RUBIO</option>
+	  	<option value="BLANCO">BLANCO</option>
+	  	<option value="PELIROJO">PELIROJO</option>
+	  	<option value="SIN CABELLO">SIN CABELLO</option>
+    </select>
+    <div class="form-group">
+   
+    <label >ALTURA EN MTS</label>	
+    <select name="adesde" class="form-control" id="{{=adesde}}">
+      	<option value=""> </option>
+      	<option value="1.10"> 1.10 mts</option>
+      	<option value="1.20"> 1.20 mts</option>
+      	<option value="1.30">1.30 mts</option>
+      	<option value="1.40">1.40 mts</option>
+      	<option value="1.50"> 1.50 mts</option>
+      	<option value="1.60">1.60 mts</option>
+      	<option value="1.70"> 1.70 mts</option>
+      	<option value="1.80"> 1.80 mts</option>
+      	<option value="1.80"> 1.90 mts</option>
+      	<option value="1.80"> 2.00 mts</option>
+      	<option value="1.80"> 2.10 mts</option>
+      	<option value="1.80"> 2.20 mts</option>
+	
+	  	
+
+
+    </select>
+    </div >
+    <label >ALTURA EN MTS</label>
+    <select name="ahasta" class="form-control" id="{{=ahasta}}">
+      	<option value=""> </option>
+      	<option value="1.10"> 1.10 mts</option>
+      	<option value="1.20"> 1.20 mts</option>
+      	<option value="1.30">1.30 mts</option>
+      	<option value="1.40">1.40 mts</option>
+      	<option value="1.50"> 1.50 mts</option>
+      	<option value="1.60">1.60 mts</option>
+      	<option value="1.70"> 1.70 mts</option>
+      	<option value="1.80"> 1.80 mts</option>
+      	<option value="1.80"> 1.90 mts</option>
+      	<option value="1.80"> 2.00 mts</option>
+      	<option value="1.80"> 2.10 mts</option>
+      	<option value="1.80"> 2.20 mts</option>
+	
+	  	
+
+
+    </select>
+   
+    </div >
+
+
+
+
+
+       
+  	
+
+  	<button type="submit" class="btn btn-default">BUSCAR</button>
+
+</form>
+
+
+</ol>
+
+
+{{=form}}
+
+
+<input type="button" onclick="history.back()" name="volver atrás" value="volver atrás">

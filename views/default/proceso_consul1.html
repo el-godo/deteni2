@@ -1,0 +1,160 @@
+{{extend 'layout.html'}}
+
+<ol class="breadcrumb">
+  
+  
+  <li class="active">HOME</li>
+  
+</ol>
+<div class="page-header">
+  <div class=" col-md-12">
+    <img src="{{=URL('static','images/INDIA.jpg')}}" width="800" height="200">
+    </div>
+    <div class=" col-md-3">
+  
+    </div>
+ 
+  </div>
+  
+
+    {{for i in registros:}}
+
+        {{pass}}
+        <div class='container-fluid'>
+        <h3>Apellido y Nombre:<small> {{=i.apellido}} {{=i.nombre}}</small></h3>
+        
+    
+
+         
+
+        
+          <div class="row">
+          
+       
+            <div class="col-xs-6"><img width="400px" src="{{=URL('download', args=i.foto)}}" alt="" class="img-thumbnail"></div>
+            <div class="col-xs-6"><img width="400px" src="{{=URL('download', args=i.foto_cuerpo)}}" alt="" class="img-thumbnail"></div>
+            </div>
+            <div class="col-xs-6"><img width="400px" src="{{=URL('download', args=i.foto_perfil)}}" alt="" class="img-thumbnail"></div>
+            <div class="col-xs-6"><img width="400px" src="{{=URL('download', args=i.foto_perfil2)}}" alt="" class="img-thumbnail"></div>
+          </div>  
+          <div class="row">
+            
+            <div class="col-md-3"><img width="400px" src="{{=URL('download', args=i.tatu_cicatriz)}}" alt="" class="img-thumbnail"></div>
+            <div class="col-md-3"><img width="400px" src="{{=URL('download', args=i.tatu_cicatriz2)}}" alt="" class="img-thumbnail"></div>
+            <div class="col-md-3"><img width="400px" src="{{=URL('download', args=i.tatu_cicatriz3)}}" alt="" class="img-thumbnail"></div>
+            <div class="col-md-3"><img width="400px" src="{{=URL('download', args=i.tatu_cicatriz4)}}" alt="" class="img-thumbnail"></div>
+          </div>    
+
+        
+
+          
+          
+        
+
+            
+        
+        
+        
+
+            
+        
+       
+        
+
+        
+
+
+
+
+           
+            
+            
+        
+       
+            
+            
+
+
+            
+            
+          <div class="row">
+            <div class="col-xs-6"><h2>Sexo: <small>{{=i.sexo}}</small></h2></div>
+            <div class="col-xs-6"><h2>Alias: <small>{{=i.aliass}}</small></h2></div>
+            <div class="col-xs-6"><h2>Edad: <small>{{=i.edad}}</small></h2></div>
+            <div class="col-xs-6"><h2>nacionalidad:<small>{{=i.nacionalidad}}</small> </h2></div>
+            <div class="col-xs-6"><h2>Domicilio: <small>{{=i.domicilio}}</h2></small></h2></div>
+            <div class="col-xs-6"> <h2>Departamento: <small>{{=i.departamento}}</small></h2></div>
+            <div class="col-xs-6"> <h2>Provincia: <small>{{=i.provincia}}</small></h2></div>
+            <div class="col-xs-6"><h2>Padre: <small>{{=i.padre}}</small></h2></div>
+            <div class="col-xs-6"><h2>Madre: <small>{{=i.madre}}</small></h2></div>
+            <div class="col-xs-6"><h2>Pareja: <small>{{=i.pareja}}</small></h2></div>
+            <div class="col-xs-6"><h2>Hijos: <small>{{=i.hijos}}</small></h2></div>
+            <div class="col-xs-6"><h2>Altura: <small>{{=i.altura}}</small></h2></div>
+            <div class="col-xs-6"><h2>Color de Piel: <small>{{=i.color_piel}}</small></h2></div>
+            <div class="col-xs-6"><h2>Color de Cabello: <small>{{=i.color_pelo}}</small></h2></div>
+            <div class="col-xs-6"><h2>Comentario: <small>{{=i.comentario}}</small></h2></div>
+       
+                     
+                                  
+                  
+                   
+                        
+           
+            
+            
+            
+            
+                      
+            
+          </div>  
+
+
+    
+    
+     
+  <div class="row">
+  <div class=" col-md-3">
+    <a href="{{=URL('proceso_consul2', args=[i.id, request.args[0]])}}" class="thumbnail">
+      <img src="{{=URL('static','images/rueda.jpg')}}" width="295" height="400">
+    </a>
+    <h6><p class="text-center text-success "></p></h6><font face="Comic Sans MS,arial,verdana"> </font><DIV ALIGN=center><strong>EDITAR LOS DATOS DE LA PERSONA</strong></DIV></p></h6>
+  </div>  
+  <div class="row">
+  <div class=" col-md-3">
+    <a href="{{=URL('ingreso',args=[i.id,i.nombre,i.apellido,i.dni])}}" class="thumbnail">
+      <img src="{{=URL('static','images/calabozo.jpg')}}" width="268" height="400">
+    </a>
+    <h6><p class="text-center text-success "></p></h6><font face="Comic Sans MS,arial,verdana"> </font><DIV ALIGN=center><strong>INGRESO CALABOZO</strong></DIV></p></h6>
+  </div>  
+  </div>      
+
+
+     
+
+            
+           
+            
+        
+        
+    
+        
+        
+        
+            
+      
+        
+    </div>            
+        
+ 
+</div>	
+</div>
+
+  
+
+
+
+	
+	
+
+	
+

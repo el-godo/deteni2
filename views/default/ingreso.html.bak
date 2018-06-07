@@ -1,0 +1,16 @@
+{{extend 'layout.html'}}
+
+<html>
+<head>
+	<title> detenid2</title>
+</head>
+<body>
+<h1>Ingreso De Personas</h1>
+<br/>
+</body>
+</html>
+
+<div class="well">
+	{{=form2}}
+
+</div>

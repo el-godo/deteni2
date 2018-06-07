@@ -1,0 +1,689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"calidad"
+			],
+			[
+				"libe",
+				"LIBERTAD"
+			],
+			[
+				"field",
+				"fields"
+			],
+			[
+				"org",
+				"dependencias_organismos"
+			],
+			[
+				"co",
+				"comisaria"
+			],
+			[
+				"functi",
+				"function"
+			],
+			[
+				"mult",
+				"multiplicacion"
+			],
+			[
+				"docume",
+				"documentElement	: Element Document"
+			],
+			[
+				"cha",
+				"charset	Attr"
+			],
+			[
+				"ch",
+				"charset	Attr"
+			],
+			[
+				"ht",
+				"html	html"
+			],
+			[
+				"s",
+				"script	<script>"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"getE",
+				"getElementById	( elementId: DOMString ): Element Document"
+			],
+			[
+				"hola",
+				"holamundo"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ap",
+				"apellido"
+			],
+			[
+				"a",
+				"ape"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"r",
+				"rows"
+			],
+			[
+				"_",
+				"_id"
+			],
+			[
+				"p",
+				"persona"
+			],
+			[
+				"in",
+				"ingreso"
+			],
+			[
+				"ape",
+				"apellido"
+			],
+			[
+				"ser",
+				"Search"
+			],
+			[
+				"com",
+				"comentario"
+			],
+			[
+				"l",
+				"like"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"que",
+				"query"
+			],
+			[
+				"T",
+				"True"
+			],
+			[
+				"lo",
+				"locals"
+			],
+			[
+				"no",
+				"nom"
+			],
+			[
+				"nom",
+				"nombre"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"se",
+				"select	Tag"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"colo",
+				"color_piel"
+			],
+			[
+				"W",
+				"witget"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"de",
+				"deteni2"
+			],
+			[
+				"gi",
+				"gridd"
+			],
+			[
+				"grid",
+				"gridd"
+			],
+			[
+				"comenta",
+				"comentarios"
+			],
+			[
+				"sq",
+				"SQLFORM"
+			],
+			[
+				"A",
+				"ALL"
+			],
+			[
+				"tr",
+				"trasladado"
+			],
+			[
+				"depen",
+				"dependencias_polciales"
+			],
+			[
+				"form",
+				"formmodal1"
+			],
+			[
+				"jud",
+				"nuevas_dep_judi"
+			],
+			[
+				"deli",
+				"delito"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"m",
+				"miset"
+			],
+			[
+				"hor",
+				"horario"
+			],
+			[
+				"or",
+				"organismos"
+			],
+			[
+				"rec",
+				"record"
+			],
+			[
+				"update",
+				"update_record"
+			],
+			[
+				"fe",
+				"fecha_naci"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"hora",
+				"hora_max"
+			],
+			[
+				"sele",
+				"select"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"orga",
+				"organismo_judicial"
+			],
+			[
+				"organismo",
+				"Organismo_judicial"
+			],
+			[
+				"entrada",
+				"Entrada_salida"
+			],
+			[
+				"IS",
+				"IS_IN_DB"
+			],
+			[
+				"ing",
+				"ingreso_exp"
+			],
+			[
+				"id",
+				"id_persona"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"defi",
+				"define_table"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Windows",
+				"name": "<"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: p",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"urllib.request importación, OS, hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Paquete Control.sublime-paquete'; IPP = sublime.installed_packages_path (); urllib.request.install_opener (urllib.request.build_opener (urllib.request.ProxyHandler ())); . = Por urllib.request.urlopen ( 'http://packagecontrol.io/' + pf.replace ( '', '% 20')) leer (); dh = hashlib.sha256 (por) .hexdigest (); print ( 'Error al validar descarga (se obtuvo% s en lugar de% s), intenta instalación manual'% (dh, h)) si dh! = h else abierta (os.path.join (IPP, PF), 'wb' ) .write (por)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/controllers",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/models",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default"
+	],
+	"file_history":
+	[
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/proceso_consul1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/consulte.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/consulta.html",
+		"/D/javascrip/funciones_anonimas.html",
+		"/D/javascrip/tipos_datos.html",
+		"/D/javascrip/tipos_o.html",
+		"/D/javascrip/funciones.html",
+		"/D/javascrip/o_ternario.html",
+		"/D/javascrip/o_comparacion.html",
+		"/D/javascrip/o_cadena.html",
+		"/D/javascrip/o_asignacion.html",
+		"/D/javascrip/opradores.html",
+		"/D/javascrip/variables.html",
+		"/D/javascrip/sentencia.html",
+		"/D/javascrip/comenetar.html",
+		"/D/javascrip/hola_mundo.html",
+		"/D/javascrip/2.html",
+		"/D/javascrip/hola.js",
+		"/C/Users/Policia/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/D/javascrip/es6.js",
+		"/D/javascrip/index.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/consulta4.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/historial.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/filtro1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/drogas/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/pedidos_secuestro2/views/default/buscar_fecha.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/pedidos_secuestro2/views/default/buscar_secuestro.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/pedidos_secuestro2/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/nueva_judicial.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/nueva_comisaria.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/consulta1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/pedidos_secuestro2/views/default/buscar_unico.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/index.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/home.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/delitos/controllers/cargar.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/nueva judicial.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/pedidos_secuestro2/views/default/filtro1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/salida.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/libertad.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/ingreso.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/deteni2.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/sin_dni.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/proceso_consul3.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/proceso_consul2.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/nuevos_delitos.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/download.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/nuevas_dependencias.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/nuevos delitos.html",
+		"/D/backup servidor/uli/web2py/bacup sistemas/armeria/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/calabozo/views/default/busqueda1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/calabozo/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/calabozo/views/default/busqueda.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/calabozo/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/calabozo/models/db.py.1",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/controllers/registro.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/models/menu.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/controllers/registro.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/models/menu.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/layout.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/views/layout.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/languages/es.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/dni/views/busquedadni/ingresar_dni_extraviado.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/dni/controllers/busquedadni.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/dni/controllers/default.py",
+		"/M/proceso_consul1.html",
+		"/D/backup servidor/uli/web2py/deteni2/controllers/default.py",
+		"/D/backup servidor/uli/web2py/deteni2/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/operaciones/controllers/agencia.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/pdf/views/default/dame_un_pdf.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/pdf/controllers/default.py",
+		"/F/deteni2/controllers/default.py",
+		"/F/deteni2/models/db.py",
+		"/M/deteni2/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/controllers/parte.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/views/parte/home_parte.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/drogas/controllers/detencion.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/operaciones/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/operaciones/views/vigilador/vigilador_encontrado_1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/operaciones/views/agencia/baja_ok.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/operaciones/views/agencia/baja_objetivo.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/dni/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/dni/views/busquedadni/home_dni.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/operaciones/controllers/vigilador.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/dni/controllers/appadmin.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/views/default/ingreso.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/views/default/index.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/views/default/nuevas_dependencias.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/controllers/imprimir.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/static/js/highcharts.js",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/static/js/calendar.js",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/egreso.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/views/default/carga.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/views/default/mostrar_formulario.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/views/default/inicio",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/views/generic.ics",
+		"/D/backup servidor/uli/web2py/web2py/applications/turnos/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/turnos/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/drogas/controllers/sujeto.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/test/views/default/ckeditor.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/views/default/exp.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/views/default/carga.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/sistema_detenciones/views/default/consulta.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/oficios/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/expediente/views/default/editar.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/oficios/models/db.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/expediente/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/sin2_dni.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/controllers/estadisticas.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/controllers/accidentes.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/consulta1",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/views/default/sin_dni.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/views/default/proceso_consul1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/controllers/proceso_consul1.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/judiciales/views/default/index.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/deteni2/views/default/Nuevas_dependencias.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/alumno/views/default/docente_inscripto.htm",
+		"/D/backup servidor/uli/web2py/web2py/applications/alumno/views/default/index.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/alumno/controllers/default.py",
+		"/D/backup servidor/uli/web2py/web2py/applications/alumno/views/default/consulta.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/alumno/views/default/alumno_inscripto.html",
+		"/D/backup servidor/uli/web2py/web2py/applications/alumno/models/db.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\backup servidor\\uli\\web2py\\web2py\\applications\\deteni2",
+			"D:\\backup servidor\\uli\\web2py\\web2py",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"f",
+			">",
+			"name",
+			"ape",
+			")]),\n",
+			",\n",
+			"+'%')),",
+			"1",
+			"color",
+			"    \n",
+			"color_piel",
+			">	    ",
+			"<header><span>Datos</span><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"></header>",
+			"sistema",
+			"copy",
+			"po",
+			"policia",
+			"comunidad",
+			"     ",
+			"SimpleDocTemplate  SimpleDocTemplate",
+			"SimpleDocTemplate",
+			"  \n",
+			"d",
+			"keywords",
+			"INPUT",
+			"       \n",
+			"atrapa",
+			" ",
+			"monday",
+			"mart",
+			"months",
+			"{{",
+			"    \n",
+			"gluon",
+			"()\n",
+			":\n",
+			"for",
+			"message",
+			"{{",
+			"googleapis.com",
+			"googleapis"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "ABOUT.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
